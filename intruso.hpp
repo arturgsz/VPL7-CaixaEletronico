@@ -1,9 +1,12 @@
 #include <string>
 
-class Intruso{
+class Intruso
+{
     /*Continue a implementação da classe Intruso*/
+public:
+    void set_senha_vazada(std::string vazou);
+    std::string crack_senha();
 
-    public:
-        void set_senha_vazada(std::string vazou);
-        std::string crack_senha();
+private:
+    std::vector<char> all_passwords;
 };
