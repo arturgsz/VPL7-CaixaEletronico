@@ -8,7 +8,7 @@ TARGET := main.out
 all: main
 
 intruso:
-	@mkdir build/produto
+	@mkdir build/intruso
 	$(CC) $(CFLAGS) -c src/intruso.cpp -o build/intruso.o
 
 
