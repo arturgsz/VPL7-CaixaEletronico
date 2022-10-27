@@ -1,7 +1,10 @@
-#include <string>
+#ifndef INTRUSO_H
+#define INTRUSO_H
 
-class Intruso
-{
+#include <string>
+#include <vector>
+
+class Intruso{
     /*Continue a implementação da classe Intruso*/
 public:
     void set_senha_vazada(std::string vazou);
@@ -10,3 +13,5 @@ public:
 private:
     std::vector<char> all_passwords;
 };
+
+#endif
